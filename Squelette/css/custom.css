@@ -1,6 +1,33 @@
 /* Vos customisations des classes de Bootstrap */
+body{
+    font-family: "Arvo", sans-serif;
+}
 
+.navbar{
+    background: #222;
+}
 
+.nav-link{
+    color: #808080;
+}
+
+#home{
+    background: url('../images/hero-image.jpg');
+    background-size: cover;
+    height: 600px;
+}
+
+.h1{
+    font-size: 3.8em;
+}
+
+#home p{
+    font-size: 1.2em;
+}
+
+#learn-btn{
+    font-size: 1.9em;
+}
 
 
 /* Responsive Styling */
