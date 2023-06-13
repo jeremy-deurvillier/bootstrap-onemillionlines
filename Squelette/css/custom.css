@@ -33,6 +33,21 @@ hr{
     width: 180px;
 }
 
+#get-involved article{
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-height: 200px;
+}
+
+#get-involved img{
+    width: 90px;
+    height: 90px;
+}
+
+#get-involved h4{
+    margin-top: 15px;
+}
+
 
 /* Responsive Styling */
 
