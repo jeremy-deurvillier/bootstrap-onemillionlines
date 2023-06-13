@@ -53,6 +53,16 @@ footer{
     min-height: 220px;
 }
 
+#back-to-top a{
+    right: 10px;
+    top: calc(50% - 10px);
+}
+
+#back-to-top img{
+    width: 30px;
+    height: 30px;
+}
+
 /* Responsive Styling */
 
 @media (max-width: 1199px) {
