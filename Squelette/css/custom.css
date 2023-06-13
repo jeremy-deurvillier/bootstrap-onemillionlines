@@ -29,6 +29,10 @@ body{
     font-size: 1.9em;
 }
 
+hr{
+    width: 180px;
+}
+
 
 /* Responsive Styling */
 
