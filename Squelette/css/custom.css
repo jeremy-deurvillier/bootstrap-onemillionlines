@@ -1,6 +1,7 @@
 /* Vos customisations des classes de Bootstrap */
 body{
     font-family: "Arvo", sans-serif;
+    scroll-behavior: smooth;
 }
 
 .navbar{
@@ -14,7 +15,7 @@ body{
 #home{
     background: url('../images/hero-image.jpg');
     background-size: cover;
-    height: 600px;
+    min-height: 600px;
 }
 
 .h1{
@@ -48,6 +49,9 @@ hr{
     margin-top: 15px;
 }
 
+footer{
+    min-height: 220px;
+}
 
 /* Responsive Styling */
 
