@@ -27,7 +27,7 @@
         <div class="container d-flex justify-content-between">
             <div class="w-100 d-flex flex-row justify-content-between align-items-center">
                 <div>
-                    <a class="navbar-brand" href="#">
+                    <a class="navbar-brand" href="/">
                         <img src="images/top-logo.png" alt="Logo One Million Lines">
                     </a>
                 </div>
@@ -39,7 +39,7 @@
                     </button>
                 </div>
             </div>
-            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <div class="collapse navbar-collapse w-50 justify-content-end" id="navbarNav">
                 <ul class="navbar-nav text-uppercase font-weight-bold">
                     <li class="nav-item">
                         <a class="nav-link" href="#who">Who we are</a>
@@ -61,10 +61,8 @@
                 Millions of lines of code are being witten. In the capital of Florida, Tallahassee, the communiy is taking the challenge and our goal is to write 1 000 000 lines o code_
             </p>
             <div class="text-center m-4">
-                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
-                    <!--<a href="#" id="learn-btn" class="font-weight-bold text-white bg-danger rounded-lg p-3">-->
+                <button type="button" id="learn-btn" class="btn btn-primary font-weight-bold text-white bg-danger border-danger rounded-lg p-2" data-toggle="modal" data-target="#exampleModal">
                     Learn more
-                    <!--</a>-->
                 </button>
             </div>
             <div class="text-center p-3"><img src="images/code.png" alt="Code illustration"></div>
@@ -140,7 +138,15 @@
 
     <!-- VIDEO MODAL -->
     <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
-        HELLO WORLD !
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-body">
+                    <div class="embed-responsive embed-responsive-16by9">
+                        <iframe class="embed-responsive-item" src="https://www.dailymotion.com/embed/video/x8l3dfe" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
 
