@@ -18,7 +18,7 @@ body{
 #home{
     background: url('../images/hero-image.jpg');
     background-size: cover;
-    min-height: 600px;
+    min-height: 700px;
 }
 
 .h1{
@@ -70,12 +70,32 @@ footer{
 
 @media (max-width: 1199px) {
 
+    #back-to-top a{
+        top: unset;
+        bottom: 10px;
+    }
+
 }
 
 @media (max-width: 991px) {
 
+    .h1{
+        font-size: 3.4em;
+    }
+
+    .navbar-collapse{
+        flex-basis: auto;
+    }
+
+    #get-involved article{
+        margin-top: 25px;
+        margin-bottom: 25px;
+    }
+
 }
 
 @media (max-width: 767px) {
-
+    #top-logo{
+        width: 100%;
+    }
 }
