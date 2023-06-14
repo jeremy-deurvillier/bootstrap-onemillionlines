@@ -25,15 +25,21 @@
         <!-- Votre code ici -->
         <h1 class="d-none">One Million Lines</h1>
         <div class="container d-flex justify-content-between">
-            <div>
-                <a class="navbar-brand" href="#">
-                    <img src="images/top-logo.png" alt="Logo One Million Lines">
-                </a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
+            <div class="w-100 d-flex flex-row justify-content-between align-items-center">
+                <div>
+                    <a class="navbar-brand" href="#">
+                        <img src="images/top-logo.png" alt="Logo One Million Lines">
+                    </a>
+                </div>
+                <div>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                        <div class="bg-white mb-1" style="min-width:20px; min-height:2px;"></div>
+                        <div class="bg-white mb-1" style="min-width:20px; min-height:2px;"></div>
+                        <div class="bg-white mb-1" style="min-width:20px; min-height:2px;"></div>
+                    </button>
+                </div>
             </div>
-            <div class="collaps navbar-collaps" id="navbarNav">
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
                 <ul class="navbar-nav text-uppercase font-weight-bold">
                     <li class="nav-item">
                         <a class="nav-link" href="#who">Who we are</a>
@@ -54,7 +60,13 @@
                 All over the country poeple are taking the <strong class="text-uppercase font-weight-bold">hour of code</strong> challenge issued by <strong class="font-weight-bold">CODE.org</strong>.
                 Millions of lines of code are being witten. In the capital of Florida, Tallahassee, the communiy is taking the challenge and our goal is to write 1 000 000 lines o code_
             </p>
-            <div class="text-center m-4"><a href="#" id="learn-btn" class="font-weight-bold text-white bg-danger rounded-lg p-3">Learn more </a></div>
+            <div class="text-center m-4">
+                <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exampleModal">
+                    <!--<a href="#" id="learn-btn" class="font-weight-bold text-white bg-danger rounded-lg p-3">-->
+                    Learn more
+                    <!--</a>-->
+                </button>
+            </div>
             <div class="text-center p-3"><img src="images/code.png" alt="Code illustration"></div>
         </section>
     </div><!-- /#home -->
@@ -124,6 +136,12 @@
         <img src="fonts/fontawesome/svgs/solid/arrow-alt-circle-up.svg" alt="to top icon">
       <a>
     </div><!-- /#back-to-top -->
+    
+
+    <!-- VIDEO MODAL -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        HELLO WORLD !
+    </div>
 
 
     <!-- Bootstrap core JavaScript

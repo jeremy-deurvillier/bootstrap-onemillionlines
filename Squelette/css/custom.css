@@ -1,7 +1,10 @@
 /* Vos customisations des classes de Bootstrap */
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: "Arvo", sans-serif;
-    scroll-behavior: smooth;
 }
 
 .navbar{
